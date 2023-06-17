@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Inter:wght@400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Cardo", serif;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+/* Top Header */
+.topHeader {
+  background: #1b3764;
+  margin: 0 auto;
+  height: fit-content;
+  padding: 40px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1300px;
+  align-items: center;
+}
+/* Left D-flex */
+.leftDiv {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  gap: 5px;
+}
+.iconbg {
+  margin-left: 18px;
+  padding: 12px;
+  background: #fff;
+}
+
+/* Right D-flex */
+.rightDiv {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  position: relative;
+}
+.uld-flex {
+  display: flex;
+  gap: 28px;
+}
+.uld-flex > li > a {
+  color: #fff;
+}
+/* Basket */
+.basket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.positbasket {
+  position: relative;
+  color: #000;
+  background: #ffca42;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  padding: 1px;
+  border-radius: 24px;
+  font-size: 12px;
+  top: -10px;
+  left: -3px;
+}
+/* btnDesign */
+.btnOrderMini {
+  width: 155px;
+  height: 45px;
+  cursor: pointer;
+  border: none;
+  background-color: #ffca42;
+}
+
+/* DivCenter */
+.centerDiv {
+  display: flex;
+  margin: 50px auto;
+  justify-content: center;
+  align-items: center;
+}
+/* DivLeft */
+.divLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.fontheadeh2 {
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Cardo", serif;
+  color: #fff;
+  margin: 0px 50px;
+  position: relative;
+}
+.fontheadeh2::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 1px;
+  background: #ffca42;
+  left: -50px;
+  top: 50%;
+  position: absolute;
+}
+.headerh3 {
+  color: #fff;
+  width: 80%;
+  font-family: "Cadro", serif;
+  font-weight: 700;
+  font-size: 65px;
+}
+.pCenter {
+  width: 60%;
+  line-height: 28px;
+  color: #b4c7e7;
+}
+/* Button Design */
+.buttonDesign {
+  display: flex;
+  gap: 40px;
+  text-align: center;
+  align-items: center;
+}
+.btnOrder {
+  width: 200px;
+  height: 55px;
+  border: none;
+  cursor: pointer;
+  background-color: #ffca42;
+}
+.ahRef {
+  color: #b4c7e7;
+  padding: 5px;
+  border-bottom: 1px solid #b4c7e7;
+}
+/* DivRight  */
+
+/* Section(1) */
+.section1 {
+  margin: 50px auto;
+  display: flex;
+  gap: 50px;
+}
