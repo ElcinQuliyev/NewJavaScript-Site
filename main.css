@@ -573,3 +573,63 @@ li > span {
   height: 150px;
   background-color: #1b3764;
 }
+/* Section(8) */
+.section8 {
+  width: 100%;
+  padding: 20px;
+  background-color: #f4f8ff;
+}
+.centerSec8 {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.centerDivSec8 {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.realModCart1 {
+  width: 320px;
+  height: fit-content;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 35px 25px rgba(4, 11, 20, 0.04);
+}
+.divImg {
+  width: 100%;
+  object-fit: cover;
+}
+/* Cart Center */
+.cartCenter {
+  text-align: start;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.h4sec8 {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Cardo", serif;
+  color: #1b3764;
+}
+.cartCenter > p {
+  color: #b4c7e7;
+  font-size: 14px;
+}
+.cartBootm {
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
