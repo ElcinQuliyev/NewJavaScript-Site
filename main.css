@@ -79,6 +79,8 @@ a {
   height: 45px;
   cursor: pointer;
   border: none;
+  font-family: "Cardo", serif;
+  font-size: 14px;
   background-color: #ffca42;
 }
 
@@ -140,6 +142,8 @@ a {
   height: 55px;
   border: none;
   cursor: pointer;
+  font-family: "Cardo", serif;
+  font-size: 18px;
   background-color: #ffca42;
 }
 .ahRef {
@@ -165,7 +169,7 @@ a {
 }
 .ul1 > li {
   font-size: 24px;
-  list-style-image: url("./icon.svg/Vector\ \(1\).svg");
+  list-style-image: url("./iconimg/Vector.svg");
 }
 .ul2 {
   display: flex;
@@ -362,11 +366,11 @@ hr {
 /* Section(4) */
 .section4 {
   width: 100%;
+  padding: 30px;
   background-color: #1b3764;
 }
 .centerDivSec4 {
   width: 100%;
-  margin: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -382,4 +386,190 @@ hr {
   font-size: 45px;
   font-family: "Cardo";
   color: #f5f5f5;
+}
+/* btnOrderMinisec4 design */
+.btnOrderMinisec4 {
+  font-family: "Cardo", serif;
+  font-size: 14px;
+  border: 1px solid #ffca42;
+  background-color: #1b3764;
+  color: #fff;
+}
+/* Section(5) */
+.section5 {
+  width: 100%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  justify-content: center;
+}
+.leftDivsec5 {
+  width: 35%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+}
+.divCart1 {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 22px;
+  background-color: #f4f8ff;
+}
+.divCart1 > p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  font-family: "Cadro", serif;
+  color: #1b3764;
+}
+
+.sircle {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 22px;
+  padding: 12px;
+  border-radius: 50px;
+  background-color: #ffca42;
+}
+/* Section(6) */
+.section6 {
+  width: 100%;
+  background-color: #f4f8ff;
+}
+.centerSec6 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+  gap: 32px;
+  flex-direction: column;
+}
+.centerCarts {
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+  gap: 25px;
+}
+.cart1Sec6 {
+  width: 480px;
+  height: 175px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background-color: #fff;
+  box-shadow: 0px 35px 25px rgba(4, 11, 20, 0.04);
+}
+.cart2Sec6 {
+  width: 420;
+  height: 175px;
+  background-color: #969aa0;
+}
+.h5sec6 {
+  font-family: "Cardo", serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: #1b3764;
+}
+.cart1Sec6 > p {
+  color: #969aa0;
+}
+
+.ul1sec6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 38px;
+  color: #1b3764;
+}
+.ul1sec6 > li {
+  font-size: 18px;
+  list-style-image: url("./iconimg/Vector.svg");
+}
+li > span {
+  font-size: 16px;
+  color: #969aa0;
+}
+/* BootmSec6 Design */
+.bottomSec6 {
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 22px;
+}
+.btnA {
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  padding: 14px;
+  background-color: #ffca42;
+}
+.bottomSec6 > p {
+  color: #969aa0;
+}
+.haveAny {
+  text-decoration: underline;
+  color: #1b3764;
+}
+/* Section(7) */
+.section7 {
+  width: 100%;
+}
+.centerSec7 {
+  display: flex;
+  width: 75%;
+  margin: 40px auto;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.leftDivSec7 {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.h3sec7 {
+  width: 65%;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "Cardo", serif;
+  color: #1b3764;
+}
+.leftBootm {
+  display: flex;
+}
+.rightDivSec7 {
+  width: 55%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #969aa0;
+}
+.cart1Sec7 {
+  width: 150px;
+  height: 150px;
+  background-color: #b4c7e7;
+}
+.cart2Sec7 {
+  width: 150px;
+  height: 150px;
+  background-color: #ffca42;
+}
+.cart3Sec7 {
+  width: 150px;
+  height: 150px;
+  background-color: #1b3764;
 }
