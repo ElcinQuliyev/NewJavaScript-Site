@@ -23,8 +23,8 @@ a {
 .container {
   display: flex;
   justify-content: space-around;
+  max-width: 1317px;
   width: 100%;
-  max-width: 1300px;
   align-items: center;
 }
 /* Left D-flex */
@@ -84,6 +84,7 @@ a {
 
 /* DivCenter */
 .centerDiv {
+  width: 100%;
   display: flex;
   margin: 50px auto;
   justify-content: center;
@@ -94,6 +95,7 @@ a {
   display: flex;
   flex-direction: column;
   gap: 28px;
+  width: 55%;
 }
 .fontheadeh2 {
   font-size: 14px;
@@ -146,10 +148,238 @@ a {
   border-bottom: 1px solid #b4c7e7;
 }
 /* DivRight  */
+.divRight {
+  width: 400px;
+  height: 700px;
+}
+/* ul design */
+.ulDesign {
+  display: flex;
+  flex-direction: column;
+}
+.ul1 {
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  gap: 20px;
+}
+.ul1 > li {
+  font-size: 24px;
+  list-style-image: url("./icon.svg/Vector\ \(1\).svg");
+}
+.ul2 {
+  display: flex;
+  justify-content: space-around;
+  color: #b4c7e7;
+}
 
 /* Section(1) */
 .section1 {
-  margin: 50px auto;
+  width: 100%;
+  margin: 125px auto;
   display: flex;
+  flex-direction: column;
   gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.h3sec1 {
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "Cardo", serif;
+  color: #1b3764;
+}
+.sec1center {
+  /* background-color: #000; */
+  display: flex;
+  width: 100%;
+
+  justify-content: space-evenly;
+}
+.divBook1 {
+  display: flex;
+  background-color: #ffca42;
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+.divBook2 {
+  background-color: red;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  z-index: -1;
+  transition: 0.3s ease;
+  transform: translateX(0px);
+}
+
+.divBook1:hover .divBook2 {
+  transform: translateX(150px);
+}
+/* Div */
+.divBook3 {
+  display: flex;
+  background-color: aqua;
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+.divBook4 {
+  background-color: blue;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  z-index: -1;
+  transition: 0.3s ease;
+  transform: translateX(0px);
+}
+
+.divBook3:hover .divBook4 {
+  transform: translateX(150px);
+}
+/* Section(2) */
+.section2 {
+  width: 100%;
+  background-color: #f5f5f5;
+}
+.divCenter {
+  width: 100%;
+  margin: 50px;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+}
+.leftDivsec2 {
+  /* width: 55%; */
+}
+
+.box {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+.imgBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  transition: all 0.5s ease-in-out;
+}
+
+.box:hover .imgBox {
+  transform: translate(-1.5rem, -1.5rem);
+}
+
+.boxbac {
+  position: absolute;
+  top: 0;
+  left: 65px;
+  width: 74%;
+  height: 100%;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  border: 12px solid #ffca42;
+  z-index: 1;
+  box-shadow: 0px 35px 25px rgba(4, 11, 20, 0.15);
+  transition: 0.5s ease-in-out;
+}
+.rightDivsec2 {
+  /* width: 45%; */
+}
+hr {
+  width: 50px;
+  height: 3px;
+  border: none;
+  margin: 8px 0;
+  background-color: #ffca42;
+}
+
+.pCentersec2 {
+  width: 85%;
+  line-height: 30px;
+  font-family: "Inter";
+  color: #969aa0;
+  font-weight: 400;
+  font-size: 19px;
+}
+.textDivsec2 {
+  display: flex;
+  justify-content: start;
+  gap: 50px;
+  margin-top: 12px;
+}
+.h4sec2 {
+  font-family: "Cardo";
+  color: #1b3764;
+  font-weight: 700;
+  font-size: 55px;
+}
+.hrRow {
+  width: 2px;
+  height: 90px;
+  border: none;
+  background-color: #ffca42;
+}
+.divBootm {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin-top: 20px;
+  gap: 20px;
+  background-color: #1b3764;
+}
+.divBotmLeft {
+  width: 100px;
+  height: 100px;
+  background-color: #f5f5f5;
+}
+/* divBotmRight design */
+.h5sec5 {
+  font-family: "Cardo";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 30px;
+  color: #ffca42;
+}
+.divBotmRight > p {
+  color: #969aa0;
+}
+/* Section(3) */
+
+.divCartImg1 {
+  width: 250px;
+  height: 250px;
+}
+.widthimg {
+  width: 100%;
+  height: 100%;
+}
+/* Section(4) */
+.section4 {
+  width: 100%;
+  background-color: #1b3764;
+}
+.centerDivSec4 {
+  width: 100%;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leftDivsec4 {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.h3sec4 {
+  font-weight: 700;
+  font-size: 45px;
+  font-family: "Cardo";
+  color: #f5f5f5;
 }
