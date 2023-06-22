@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: none;
 }
 li {
   list-style: none;
@@ -241,6 +242,7 @@ a {
 .divBook3:hover .divBook4 {
   transform: translateX(150px);
 }
+
 /* Section(2) */
 .section2 {
   width: 100%;
@@ -353,6 +355,7 @@ hr {
 .divBotmRight > p {
   color: #969aa0;
 }
+
 /* Section(3) */
 
 .divCartImg1 {
@@ -438,6 +441,7 @@ hr {
   border-radius: 50px;
   background-color: #ffca42;
 }
+
 /* Section(6) */
 .section6 {
   width: 100%;
@@ -556,13 +560,54 @@ li > span {
   width: 55%;
   display: flex;
   flex-wrap: wrap;
-  background-color: #969aa0;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+.leftdiv1 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 .cart1Sec7 {
-  width: 150px;
-  height: 150px;
-  background-color: #b4c7e7;
+  width: 245px;
+  height: 225px;
+  padding: 18px;
+  background-color: #1b3764;
 }
+.centerSec7text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.perSon {
+  display: flex;
+  gap: 8px;
+}
+.h4sec7 {
+  font-size: 18px;
+  font-family: "Cadro", serif;
+  color: #f4f8ff;
+}
+.centerSec7text > p {
+  font-size: 12px;
+  color: #f4f8ff;
+}
+
+.imgDiv {
+  width: 80px;
+  height: 80px;
+}
+.namePerson {
+  display: flex;
+  padding: 25px 0;
+  flex-direction: column;
+}
+
+.iconImgDiv {
+  width: 45px;
+}
+
 .cart2Sec7 {
   width: 150px;
   height: 150px;
@@ -632,4 +677,324 @@ li > span {
   align-items: center;
   text-align: center;
   justify-content: space-between;
+}
+/* Section(9) */
+.centerDivSec9 {
+  width: 650px;
+  margin: 80px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+  color: #1b3764;
+  background-color: #ffca42;
+}
+.h3sec9 {
+  font-size: 34px;
+  font-weight: 700px;
+  font-family: "Cardo", serif;
+}
+.hrsec9 {
+  width: 50px;
+  height: 2px;
+  border: none;
+  background-color: #1b3764;
+}
+.centerDivSec9 > p {
+  width: 60%;
+  font-size: 14px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.inputSec9 {
+  width: 320px;
+  height: 40px;
+  border: none;
+}
+.btnSubmit {
+  width: 200px;
+  height: 40px;
+  font-size: 14px;
+  font-family: "Cardo", serif;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  background-color: #1b3764;
+  color: #f5f5f5;
+}
+/* centerDivFooter */
+.footer {
+  width: 100%;
+  background-color: #1b3764;
+}
+.centerDivFooter {
+  width: 75%;
+  margin: 50px;
+  display: flex;
+  /* background-color: #969aa0; */
+  justify-content: space-between;
+  padding: 30px;
+}
+.divPages {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 24px;
+  padding: 5px;
+}
+.divimgPage {
+  display: flex;
+  gap: 8px;
+  color: #f5f5f5;
+  align-items: center;
+}
+.divIcon {
+  display: flex;
+  gap: 20px;
+}
+.icon1design {
+  padding: 8px;
+  border: 1px solid #ffca42;
+  background-color: #b4c7e7;
+}
+.h5footer {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Cardo", serif;
+  color: #fff;
+}
+.divExplore {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.expLore {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.expLore > li {
+  list-style: url("./iconimg/icon.svg");
+}
+.expLore > li > a {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Inter", serif;
+  color: #b4c7e7;
+}
+.Keep {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.Keep > li > a {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #f5f5f5;
+}
+/* -- Resposive -- Design All */
+@media screen and (max-width: 992px) {
+  /* ----Header---- */
+  .container {
+    padding: 0 10px;
+    max-width: 100%;
+  }
+  /* LeftDiv */
+  .leftDiv {
+    font-size: 12px;
+    gap: 4px;
+  }
+  .iconbg {
+    margin-left: 5px;
+    padding: 5px;
+  }
+  /* Right Div */
+  .rightDiv {
+    gap: 8px;
+    padding: 0 8px;
+  }
+  .uld-flex {
+    gap: 20px;
+    font-size: 12px;
+  }
+  .btnOrderMini {
+    width: 125px;
+    height: 40px;
+    font-size: 14px;
+  }
+  /* Div Center */
+  .centerDiv {
+    gap: 50px;
+  }
+  .divLeft {
+    font-size: 14px;
+    width: 100%;
+  }
+  .headerh3 {
+    font-size: 38px;
+  }
+  .pCenter {
+    width: 80%;
+  }
+  .btnOrder {
+    width: 160px;
+    height: 42px;
+    font-size: 16px;
+  }
+  .ahRef {
+    padding: 2px;
+    font-size: 16px;
+  }
+  .ulDesign {
+    font-size: 12px;
+  }
+  .ul1 {
+    gap: 34px;
+  }
+  .ul1 > li {
+    font-size: 16px;
+  }
+  .divRight {
+    width: 365px;
+    height: 350px;
+  }
+  /* ----Section(1)---- */
+  /* ----Resposible---- */
+  .section1 {
+    margin: 26px;
+    gap: 26px;
+    text-align: center;
+  }
+  .sec1center {
+    gap: 46px;
+  }
+  .divBook1 {
+    width: 140px;
+    height: 140px;
+  }
+
+  .divBook2 {
+    width: 140px;
+    height: 140px;
+  }
+  .divBook1:hover .divBook2 {
+    transform: translateX(140px);
+  }
+
+  .divBook3 {
+    width: 140px;
+    height: 140px;
+  }
+  .divBook4 {
+    width: 140px;
+    height: 140px;
+  }
+
+  .divBook3:hover .divBook4 {
+    transform: translateX(140px);
+  }
+  /* ----Section(2)---- */
+  /* ----Resbonsible---- */
+  .box {
+    width: 380px;
+    height: 380px;
+  }
+  .boxbac {
+    left: 65px;
+    width: 68%;
+  }
+  .pCentersec2 {
+    width: 95%;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .textDivsec2 {
+    gap: 14px;
+  }
+  .h4sec2 {
+    font-size: 34px;
+  }
+  .divBootm {
+    width: 100%;
+    gap: 16px;
+  }
+  .h5sec5 {
+    font-size: 14px;
+  }
+  /* ----Section(5)---- */
+  /* ----Resbonsible---- */
+  .sec5Center {
+    display: flex;
+    flex-direction: column;
+  }
+  .leftDivsec5 {
+    width: 100%;
+    flex-wrap: nowrap;
+  }
+  .divCart1 {
+    width: 250px;
+    height: 200px;
+    gap: 16px;
+    padding: 10px;
+  }
+  .divCart1 > p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .rightDivsec5 {
+    display: none;
+  }
+  /*----Section(6)----  */
+  /* ---Responsible--- */
+  .centerSec6 {
+    width: 100%;
+    padding: 20px;
+    gap: 22px;
+  }
+  .h3sec1 {
+    font-size: 34px;
+  }
+  .centerCarts {
+    width: 100%;
+    padding: 18px;
+    gap: 25px;
+  }
+  .cart1Sec6 {
+    width: 450px;
+    height: 165px;
+    padding: 24px;
+    gap: 18px;
+  }
+  .h5sec6 {
+    font-size: 18px;
+  }
+  .cart1Sec6 > p {
+    font-size: 14px;
+  }
+  .ul1sec6 {
+    gap: 16px;
+  }
+  .ul1sec6 > li {
+    font-size: 18px;
+  }
+  li > span {
+    font-size: 14px;
+  }
+  /* BootmSec6 */
+  .bottomSec6 {
+    width: 45%;
+    font-size: 14px;
+  }
+  .btnA {
+    width: 260px;
+    height: 45px;
+    font-size: 14px;
+    padding: 14px;
+  }
 }
