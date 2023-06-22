@@ -715,6 +715,7 @@ li > span {
   width: 320px;
   height: 40px;
   border: none;
+  padding: 6px;
 }
 .btnSubmit {
   width: 200px;
@@ -732,9 +733,12 @@ li > span {
   width: 100%;
   background-color: #1b3764;
 }
+.contentDiv2 {
+  width: 100%;
+}
 .centerDivFooter {
-  width: 75%;
-  margin: 50px;
+  width: 80%;
+  margin: 35px auto;
   display: flex;
   /* background-color: #969aa0; */
   justify-content: space-between;
@@ -796,6 +800,22 @@ li > span {
   font-family: "Inter", serif;
   font-weight: 400;
   font-size: 14px;
+  color: #f5f5f5;
+}
+.footerbootmDiv {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 18px;
+  border-top: 1px solid #969aa0;
+  /* background-color: #ffca42; */
+}
+.h5sec6 {
+  color: #969aa0;
+  font-size: 18px;
+  font-family: "Cadro", serif;
+}
+.colorSpan {
   color: #f5f5f5;
 }
 /* -- Resposive -- Design All */
@@ -988,13 +1008,107 @@ li > span {
   }
   /* BootmSec6 */
   .bottomSec6 {
-    width: 45%;
-    font-size: 14px;
+    font-size: 12px;
   }
   .btnA {
     width: 260px;
     height: 45px;
     font-size: 14px;
     padding: 14px;
+  }
+  /* ----Section(7)---- */
+  /* ----Resbonsible---- */
+  .centerSec7 {
+    width: 100%;
+    flex-direction: column;
+  }
+  .leftDivSec7 {
+    width: 50%;
+
+    gap: 10px;
+  }
+  .h3sec7 {
+    width: 100%;
+    font-size: 34px;
+  }
+  .rightDivSec7 {
+    width: 100%;
+  }
+  .cart1Sec7 {
+    width: 235px;
+    height: 200px;
+    padding: 18px;
+  }
+  .centerSec7text {
+    gap: 8px;
+  }
+  .imgDiv {
+    width: 70px;
+    height: 70px;
+  }
+  .h4sec7 {
+    font-size: 16px;
+  }
+  /* ----Section(8)---- */
+  /* ----Resbonsible---- */
+  .section8 {
+    width: 100%;
+    padding: 24px;
+  }
+  .centerSec8 {
+    gap: 8px;
+    padding: 0;
+  }
+  .centerDivSec8 {
+    padding: 10px;
+  }
+  .realModCart1 {
+    width: 210px;
+  }
+  .cartCenter {
+    padding: 8px;
+    gap: 12px;
+  }
+  .h4sec8 {
+    font-size: 14px;
+  }
+  .cartCenter > p {
+    font-size: 12px;
+  }
+  .cartBootm {
+    font-size: 12px;
+  }
+  /* ----Footer----- */
+  /* ----Resbonsible---- */
+  .centerDivFooter {
+    width: 100%;
+    padding: 30px;
+    margin: 0;
+    gap: 44px;
+  }
+  .divPages {
+    gap: 20px;
+    padding: 5px;
+  }
+  .divimgPage {
+    gap: 8px;
+  }
+  .divIcon {
+    gap: 14px;
+  }
+  .icon1design {
+    padding: 6px;
+  }
+  .divExplore {
+    gap: 6px;
+  }
+  .h5footer {
+    font-size: 15px;
+  }
+  .expLore {
+    gap: 6px;
+  }
+  .expLore > li > a {
+    font-size: 14px;
   }
 }
