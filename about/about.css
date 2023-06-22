@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Inter:wght@400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Cardo", serif;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+/* Top Header */
+.topHeader {
+  background: #1b3764;
+  margin: 0 auto;
+  height: fit-content;
+  padding: 40px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1317px;
+  width: 100%;
+  align-items: center;
+}
+/* Left D-flex */
+.leftDiv {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  gap: 5px;
+}
+.iconbg {
+  margin-left: 18px;
+  padding: 12px;
+  background: #fff;
+}
+
+/* Right D-flex */
+.rightDiv {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  position: relative;
+}
+.uld-flex {
+  display: flex;
+  gap: 28px;
+}
+.uld-flex > li > a {
+  color: #fff;
+}
+/* Basket */
+.basket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.positbasket {
+  position: relative;
+  color: #000;
+  background: #ffca42;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  padding: 1px;
+  border-radius: 24px;
+  font-size: 12px;
+  top: -10px;
+  left: -3px;
+}
+/* btnDesign */
+.btnOrderMini {
+  width: 155px;
+  height: 45px;
+  cursor: pointer;
+  border: none;
+  font-family: "Cardo", serif;
+  font-size: 14px;
+  background-color: #ffca42;
+}
+
+/* DivCenter */
+.centerDiv {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  margin: 60px auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 14px;
+  color: rgba(180, 199, 231, 1);
+}
+.headerh3 {
+  font-size: 34px;
+  font-family: "Cardo";
+  font-weight: 700;
+  color: #fff;
+}
+hr {
+  width: 50px;
+  height: 2px;
+  background-color: #ffca42;
+  border: 0;
+}
+/* Section(1) */
+.centerDivSec1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px auto;
+  gap: 35px;
+  background-color: rgba(246, 248, 252, 1);
+}
+
+.widthimg {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.divImg {
+  width: 800px;
+  height: 450px;
+  box-shadow: 0px 35px 45px 0px rgba(4, 11, 20, 0.15);
+}
+.centerBootm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  gap: 40px;
+}
+.leftDivsec1 {
+  width: 25%;
+}
+.rightDivsec1 {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 14px;
+  /* background-color: #ffca42; */
+}
+.h5sec1 {
+  font-size: 24px;
+  font-family: "Cadro";
+  color: #1b3764;
+}
+.rightDivsec1 > p {
+  font-size: 12px;
+  color: rgba(150, 154, 160, 1);
+}
+
+.BtnSec1 {
+  width: 120px;
+  height: 40px;
+  background-color: #ffca42;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: #1b3764;
+  font-family: "Cardo";
+}
+/* Section(2) */
+.centerDivSec2 {
+  width: 70%;
+  margin: 60px auto;
+  align-items: center;
+  display: flex;
+}
+.leftDivSec2 {
+  width: 56%;
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  gap: 10px;
+  color: #1b3764;
+}
+.h4sec2 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Cadro";
+}
+.leftDivSec2 > p {
+  font-size: 18px;
+  color: rgba(150, 154, 160, 1);
+}
+.botmDivSec2 {
+  display: flex;
+  gap: 22px;
+  padding: 10px;
+}
+.h5sec2 {
+  font-size: 18px;
+}
+.left2Bootm {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.divSquare1 {
+  width: 50px;
+  height: 50px;
+  padding: 14px;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Cadro";
+  background: #ffca42;
+}
+.divSquare1:nth-child(2) {
+  background-color: red;
+}
+.dashed {
+  width: 25px;
+  height: 40px;
+  border-right: dotted #000;
+}
+.right2Bootm {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.right2Bootm > p {
+  font-size: 14px;
+  color: rgba(150, 154, 160, 1);
+}
+
+.rightDivSec2 {
+  width: 50%;
+  height: 420px;
+  box-shadow: 0px 35px 45px 0px rgba(4, 11, 20, 0.1);
+}
+/* Section(3) */
