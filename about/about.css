@@ -249,7 +249,7 @@ hr {
 .dashed {
   width: 25px;
   height: 40px;
-  border-right: dotted #000;
+  border-right: 1px #000 dashed;
 }
 .right2Bootm {
   display: flex;
