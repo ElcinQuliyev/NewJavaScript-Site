@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Inter:wght@400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Cardo", serif;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+/* Top Header */
+.topHeader {
+  background: #1b3764;
+  margin: 0 auto;
+  height: fit-content;
+  padding: 40px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1317px;
+  width: 100%;
+  align-items: center;
+}
+/* Left D-flex */
+.leftDiv {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  gap: 5px;
+}
+.iconbg {
+  margin-left: 18px;
+  padding: 12px;
+  background: #fff;
+}
+
+/* Right D-flex */
+.rightDiv {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  position: relative;
+}
+.uld-flex {
+  display: flex;
+  gap: 28px;
+}
+.uld-flex > li > a {
+  color: #fff;
+}
+.dropDown > li > a {
+  font-size: 16px;
+  color: #f4f8ff;
+}
+.dropDown-Content {
+  position: absolute;
+  min-width: 65px;
+  top: 32px;
+  left: 66px;
+  text-align: center;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  z-index: 1;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  clip-path: inset(0 0 100% 0);
+}
+.dropDown-Content > li > a {
+  font-size: 14px;
+  color: #f4f8ff;
+}
+.dropDown:hover .dropDown-Content {
+  clip-path: inset(0 0 0 0);
+}
+/* Basket */
+.basket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.positbasket {
+  position: relative;
+  color: #000;
+  background: #ffca42;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  padding: 1px;
+  border-radius: 24px;
+  font-size: 12px;
+  top: -10px;
+  left: -3px;
+}
+/* btnDesign */
+.btnOrderMini {
+  width: 155px;
+  height: 45px;
+  cursor: pointer;
+  border: none;
+  font-family: "Cardo", serif;
+  font-size: 14px;
+  background-color: #ffca42;
+}
+
+/* DivCenter */
+.centerDiv {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  margin: 60px auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 14px;
+  color: rgba(180, 199, 231, 1);
+}
+.headerh3 {
+  font-size: 34px;
+  font-family: "Cardo";
+  font-weight: 700;
+  color: #fff;
+}
+hr {
+  width: 50px;
+  height: 2px;
+  background-color: #ffca42;
+  border: 0;
+}
+/* ---Section(2)---- */
+.section2 {
+  width: 100%;
+  padding: 20px;
+  background-color: #f4f8ff;
+}
+.centerSec2 {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.centerDivSec2 {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.realModCart1 {
+  width: 315px;
+  height: fit-content;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 35px 25px rgba(4, 11, 20, 0.04);
+}
+.divImg {
+  width: 100%;
+  object-fit: cover;
+}
+/* Cart Center */
+.cartCenter {
+  text-align: start;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.h4sec2 {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Cardo", serif;
+  color: #1b3764;
+}
+.haveAny {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  color: #1b3764;
+  padding: 4px;
+}
+.cartCenter > p {
+  color: #b4c7e7;
+  font-size: 14px;
+}
+.cartBootm {
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
