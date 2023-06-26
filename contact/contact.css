@@ -1,0 +1,412 @@
+@import url("https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Inter:wght@400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Cardo", serif;
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+/* Top Header */
+.topHeader {
+  background: #1b3764;
+  margin: 0 auto;
+  height: fit-content;
+  padding: 40px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1317px;
+  width: 100%;
+  align-items: center;
+}
+/* Left D-flex */
+.leftDiv {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  gap: 5px;
+}
+.iconbg {
+  margin-left: 18px;
+  padding: 12px;
+  background: #fff;
+}
+
+/* Right D-flex */
+.rightDiv {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  position: relative;
+}
+.uld-flex {
+  display: flex;
+  gap: 28px;
+}
+.uld-flex > li > a {
+  color: #fff;
+}
+.dropDown > li > a {
+  font-size: 16px;
+  color: #f4f8ff;
+}
+.dropDown-Content {
+  position: absolute;
+  min-width: 65px;
+  top: 32px;
+  left: 65px;
+  text-align: center;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 6px;
+  z-index: 1;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  clip-path: inset(0 0 100% 0);
+}
+.dropDown-Content > li > a {
+  font-size: 14px;
+  color: #f4f8ff;
+}
+.dropDown:hover .dropDown-Content {
+  clip-path: inset(0 0 0 0);
+}
+
+/* Basket */
+.basket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.positbasket {
+  position: relative;
+  color: #000;
+  background: #ffca42;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  padding: 1px;
+  border-radius: 24px;
+  font-size: 12px;
+  top: -10px;
+  left: -3px;
+}
+/* btnDesign */
+.btnOrderMini {
+  width: 155px;
+  height: 45px;
+  cursor: pointer;
+  border: none;
+  font-family: "Cardo", serif;
+  font-size: 14px;
+  background-color: #ffca42;
+}
+
+/* Button Design */
+.buttonDesign {
+  display: flex;
+  gap: 40px;
+  text-align: center;
+  align-items: center;
+}
+
+/* DivCenter */
+.centerDiv {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  margin: 60px auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 14px;
+  color: rgba(180, 199, 231, 1);
+}
+.headerh3 {
+  font-size: 34px;
+  font-family: "Cardo";
+  font-weight: 700;
+  color: #fff;
+}
+hr {
+  width: 50px;
+  height: 2px;
+  background-color: #ffca42;
+  border: 0;
+}
+/* ---Section(1)--- */
+.section1 {
+  width: 100%;
+}
+.centerContact {
+  width: 100%;
+  margin: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Left */
+.leftDivTouch {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.h4sec1 {
+  font-size: 38px;
+  font-family: "Cadro";
+  font-weight: 700;
+  color: #1b3764;
+}
+.loremP {
+  font-size: 16px;
+  color: #969aa0;
+}
+.contactUs {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.visitUs {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  line-height: 28px;
+}
+.iconDiv {
+  width: 64px;
+  height: 62px;
+  padding: 15px;
+  text-align: center;
+  background-color: #1b3764;
+}
+.h5sec1 {
+  font-size: 22px;
+  font-family: "Cadro";
+  font-weight: 700;
+  color: #1b3764;
+}
+
+/* Right */
+.rightDivTouch {
+  width: 55%;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.formInput {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.topInput {
+  display: flex;
+  gap: 8px;
+}
+.inputWidth {
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  border: none;
+}
+.checkboxDiv {
+  display: flex;
+  gap: 8px;
+}
+.checkboxDiv > input {
+  width: 20px;
+  border-radius: 20px;
+  border: none;
+}
+.iconInput {
+  width: 24px;
+  height: 24px;
+  margin: 2px;
+}
+.imginput {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  padding: 4px;
+  align-items: center;
+  border: 1px solid #dce1e9;
+  background-color: #fff;
+}
+.textArea {
+  display: flex;
+  padding: 4px;
+  border: 1px solid #dce1e9;
+  background-color: #fff;
+}
+.btnSubmit {
+  text-align: center;
+  font-size: 18px;
+  font-family: Cardo;
+  font-weight: 700;
+  color: #1b3764;
+  background-color: #ffca42;
+  width: 100%;
+  height: 40px;
+  padding: 4px;
+  border: none;
+  cursor: pointer;
+}
+/* ----Section(2)----- */
+.section2 {
+  width: 100%;
+  background-color: #f5f8fc;
+}
+.centerTextSec2 {
+  width: 80%;
+  margin: 60px 0 0 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  background-color: #fff;
+}
+
+.leftText {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* background-color: #ffca42; */
+}
+
+.DivText {
+  display: flex;
+  flex-direction: column;
+}
+.h3sec2 {
+  font-size: 34px;
+  font-family: "Cardo";
+  font-weight: 700;
+  color: #1b3764;
+}
+.h4sec2 {
+  color: #1b3764;
+  font-size: 18px;
+  font-family: Cardo;
+  font-weight: 700;
+  border-bottom: 1px solid #4785e1;
+}
+.changeDiv {
+  display: flex;
+  gap: 10px;
+}
+.bottomText {
+  display: flex;
+  padding: 10px;
+  width: 86%;
+  line-height: 24px;
+  font-size: 15px;
+  clip-path: inset(0 0 100% 0);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.DivText:hover .bottomText {
+  /* background-color: #1b3764; */
+  /* display: block; */
+  clip-path: inset(0 0 0 0);
+}
+.rightText {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* background-color: #969aa0; */
+}
+.footer {
+  width: 100%;
+  background-color: #1b3764;
+}
+.contentDiv2 {
+  width: 100%;
+}
+.centerDivFooter {
+  width: 80%;
+  margin: 35px auto;
+  display: flex;
+  /* background-color: #969aa0; */
+  justify-content: space-between;
+  padding: 30px;
+}
+.divPages {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 24px;
+  padding: 5px;
+}
+.divimgPage {
+  display: flex;
+  gap: 8px;
+  color: #f5f5f5;
+  align-items: center;
+}
+.divIcon {
+  display: flex;
+  gap: 20px;
+}
+.icon1design {
+  padding: 8px;
+  border: 1px solid #ffca42;
+  background-color: #b4c7e7;
+}
+.h5footer {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Cardo", serif;
+  color: #fff;
+}
+.divExplore {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.expLore {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.expLore > li {
+  list-style: url("../iconimg/icon.svg");
+}
+.expLore > li > a {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Inter", serif;
+  color: #b4c7e7;
+}
+.Keep {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.Keep > li > a {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #f5f5f5;
+}
+.footerbootmDiv {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 18px;
+  border-top: 1px solid #969aa0;
+  /* background-color: #ffca42; */
+}
+.h5sec6 {
+  color: #969aa0;
+  font-size: 18px;
+  font-family: "Cadro", serif;
+}
+.colorSpan {
+  color: #f5f5f5;
+}
