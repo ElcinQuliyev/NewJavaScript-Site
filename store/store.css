@@ -342,3 +342,81 @@ hr {
 .colorSpan {
   color: #f5f5f5;
 }
+/* ---Resbonsible--- */
+@media screen and (max-width: 992px) {
+  /* ----Header---- */
+  .container {
+    padding: 0 10px;
+    max-width: 100%;
+  }
+  /* LeftDiv */
+  .leftDiv {
+    font-size: 12px;
+    gap: 4px;
+  }
+  .iconbg {
+    margin-left: 5px;
+    padding: 5px;
+  }
+  /* Right Div */
+  .rightDiv {
+    gap: 10px;
+    padding: 0 10px;
+  }
+  .uld-flex {
+    gap: 20px;
+    font-size: 12px;
+  }
+  .btnOrderMini {
+    width: 125px;
+    height: 40px;
+    font-size: 14px;
+  }
+  /* Div Center */
+  .centerDiv {
+    gap: 50px;
+  }
+  .divLeft {
+    font-size: 14px;
+    width: 100%;
+  }
+  .headerh3 {
+    font-size: 38px;
+  }
+  .pCenter {
+    width: 80%;
+  }
+  .btnOrder {
+    width: 160px;
+    height: 42px;
+    font-size: 16px;
+  }
+  .ahRef {
+    padding: 2px;
+    font-size: 16px;
+  }
+  .ulDesign {
+    font-size: 12px;
+  }
+  .ul1 {
+    gap: 34px;
+  }
+  .ul1 > li {
+    font-size: 16px;
+  }
+  .dropDown > li > a {
+    font-size: 12px;
+  }
+  .dropDown-Content {
+    top: 25px;
+    left: 50px;
+  }
+  .dropDown-Content > li > a {
+    font-size: 12px;
+  }
+  .divRight {
+    width: 365px;
+    height: 350px;
+  }
+  /* ---Section(1)--- */
+}
