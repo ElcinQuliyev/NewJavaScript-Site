@@ -163,6 +163,7 @@ hr {
   align-items: center;
   background: #ffffff;
   box-shadow: 0px 35px 25px rgba(4, 11, 20, 0.04);
+  cursor: pointer;
 }
 .divImg {
   width: 100%;
@@ -170,7 +171,7 @@ hr {
 }
 /* Cart Center */
 .cartCenter {
-  text-align: start;
+  text-align: center;
   padding: 25px;
   display: flex;
   flex-direction: column;
@@ -198,4 +199,144 @@ hr {
   align-items: center;
   text-align: center;
   justify-content: space-between;
+}
+/* Modal Styles */
+.modal {
+  display: none; /* Hide the modal by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+#modalTrigger {
+  border: none;
+  border-bottom: 1px solid;
+  cursor: pointer;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* 80% width */
+}
+
+.modal-heading {
+  margin-top: 0;
+}
+
+.modal-bottom {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* centerDivFooter */
+.footer {
+  width: 100%;
+  background-color: #1b3764;
+}
+.contentDiv2 {
+  width: 100%;
+}
+.centerDivFooter {
+  width: 80%;
+  margin: 35px auto;
+  display: flex;
+  /* background-color: #969aa0; */
+  justify-content: space-between;
+  padding: 30px;
+}
+.divPages {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 24px;
+  padding: 5px;
+}
+.divimgPage {
+  display: flex;
+  gap: 8px;
+  color: #f5f5f5;
+  align-items: center;
+}
+.divIcon {
+  display: flex;
+  gap: 20px;
+}
+.icon1design {
+  padding: 8px;
+  border: 1px solid #ffca42;
+  background-color: #b4c7e7;
+}
+.h5footer {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Cardo", serif;
+  color: #fff;
+}
+.divExplore {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.expLore {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.expLore > li {
+  list-style: url("../iconimg/icon.svg");
+}
+.expLore > li > a {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Inter", serif;
+  color: #b4c7e7;
+}
+.Keep {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.Keep > li > a {
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #f5f5f5;
+}
+.footerbootmDiv {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 18px;
+  border-top: 1px solid #969aa0;
+  /* background-color: #ffca42; */
+}
+.h5sec6 {
+  color: #969aa0;
+  font-size: 18px;
+  font-family: "Cadro", serif;
+}
+.colorSpan {
+  color: #f5f5f5;
 }

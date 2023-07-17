@@ -7,17 +7,19 @@
     <title>Document</title>
     <link rel="stylesheet" href="./main.css" />
   </head>
-  <body style="background-color: red">
+  <body>
     <header>
       <div class="topHeader">
         <div class="container">
           <!-- IconPages and sosialMedia -->
           <!-- DivLeft -->
           <div class="leftDiv">
-            <div class="imgwidth">
-              <img src="./iconimg/bookmark.png" alt="" />
+            <div style="display: flex; align-items: center">
+              <div class="imgwidth">
+                <img src="./iconimg/bookmark.png" alt="" />
+              </div>
+              <h3>Pages</h3>
             </div>
-            <h3>Pages</h3>
             <div class="iconDiv">
               <a href="#" class="iconbg"
                 ><img src="./iconimg/facebook.svg" alt=""
@@ -34,20 +36,31 @@
           <div class="rightDiv">
             <!-- link -->
             <ul class="uld-flex">
-              <li><a href="#">Home</a></li>
+              <li><a href="#">Ana Səhifə</a></li>
               <ul class="dropDown">
                 <li>
-                  <a href="#">Pages▾</a>
+                  <a href="#">Pagelər▾</a>
                 </li>
                 <ul class="dropDown-Content">
-                  <li><a href="./store/store.html">My Store</a></li>
-                  <li><a href="./articles/article.html">Articles</a></li>
+                  <li><a href="./store/store.html">Storiler</a></li>
+                  <li><a href="./articles/article.html">Article</a></li>
                   <li><a href="./eroor/index.html">Error</a></li>
                 </ul>
               </ul>
-              <li><a href="./about/about.html">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="./contact/contact.html">Contact</a></li>
+              <li><a href="./about/about.html">Haqqında</a></li>
+              <li><a href="#">Servislər</a></li>
+              <li><a href="./contact/contact.html">Əlaqə</a></li>
+              <li class="showList">
+                <a href="https://facebook.com" class="iconbg"
+                  ><img src="./iconimg/facebook.svg" alt=""
+                /></a>
+                <a href="https:linkedin.com" class="iconbg"
+                  ><img src="./iconimg/linkedin.svg" alt=""
+                /></a>
+                <a href="https://twitter.com" class="iconbg"
+                  ><img src="./iconimg/twitter.svg" alt=""
+                /></a>
+              </li>
             </ul>
             <!-- Basket -->
             <div>
@@ -59,8 +72,19 @@
             <!-- Basket -->
             <button type="button" class="btnOrderMini">Order Today</button>
           </div>
-          <div class="iconHamburger">
-            <img src="./iconimg/hamburger.svg" class="widthimg" alt="" />
+          <div class="hamburger-menu">
+            <div>
+              <a href="#" class="basket"
+                ><img src="./iconimg/basket.svg" alt="" />
+                <div class="positbasket">01</div></a
+              >
+            </div>
+            <img
+              class="iconHamburger"
+              src="./iconimg/hamburger.svg"
+              class="widthimg"
+              alt=""
+            />
           </div>
         </div>
         <!-- DivCenter -->
@@ -68,7 +92,7 @@
           <div class="divLeft">
             <div>
               <h5 class="fontheadeh2">Welcome to Pages</h5>
-              <h3 class="headerh3">Books are uniquely portable magic</h3>
+              <h3 class="headerh3">Kitablar unikal portativ sehrdir</h3>
             </div>
             <p class="pCenter">
               There are many variations of passages of Lorem Ipsum available,
@@ -101,7 +125,7 @@
     <section>
       <div class="container">
         <div class="section1">
-          <h3 class="h3sec1">Author’s Book Includes</h3>
+          <h3 class="h3sec1">Müəllifin Kitabı daxildir</h3>
           <div class="sec1center">
             <div class="divBook1">
               <img src="./iconimg/Book.svg" class="widthimg" alt="Img" />
@@ -163,7 +187,7 @@
               </div>
             </div>
             <div class="rightDivsec2">
-              <h3 class="h3sec1">About Author</h3>
+              <h3 class="h3sec1">Müəllif haqqında</h3>
               <hr />
               <p class="pCentersec2">
                 All the Lorem Ipsum generators on the Internet tend to repeated
@@ -207,7 +231,7 @@
     <section>
       <div class="container">
         <div class="section1">
-          <h3 class="h3sec1">Trusted by the Best</h3>
+          <h3 class="h3sec1">Ən Yaxşılar Etibarlıdır</h3>
           <div class="section3center">
             <div class="divCartImg1">
               <img src="./iconimg/01.svg" class="widthimg" alt="" />
@@ -231,7 +255,7 @@
         <div class="container">
           <div class="centerDivSec4">
             <div class="leftDivsec4">
-              <h3 class="h3sec4">Get Book Copy Today!</h3>
+              <h3 class="h3sec4">Bu gün kitab nüsxəsini əldə edin!</h3>
               <hr />
               <p class="pCentersec2">
                 All the Lorem Ipsum generators on the Internet tend to repeated
@@ -252,7 +276,7 @@
     <section>
       <div class="container">
         <div class="section5">
-          <h3 class="h3sec1">What will you learn?</h3>
+          <h3 class="h3sec1">Nə öyrənəcəksən?</h3>
           <div class="sec1center sec5Center">
             <div class="leftDivsec5">
               <div class="divCart1">
@@ -298,7 +322,7 @@
       <div class="section6">
         <div class="container">
           <div class="centerSec6">
-            <h3 class="h3sec1">The Chapter Includes</h3>
+            <h3 class="h3sec1">Fəsil daxildir</h3>
             <div class="centerCarts">
               <!-- Cart1 -->
               <div class="cart1Sec6">
@@ -377,7 +401,10 @@
               <a href="#" class="btnA">Start a 15-Days Free Trail</a>
               <p>
                 Short description about each chapter
-                <a href="#" class="haveAny">Have any questions?</a> Contact us
+                <a href="./contact/contact.html" class="haveAny"
+                  >Have any questions?</a
+                >
+                Contact us
               </p>
             </div>
           </div>
@@ -390,7 +417,7 @@
         <div class="section7">
           <div class="centerSec7">
             <div class="leftDivSec7">
-              <h3 class="h3sec7">What Readers Say About the Book</h3>
+              <h3 class="h3sec7">Oxucuların Kitab Haqqında Dedikləri</h3>
               <hr />
               <p class="pCentersec2">
                 All the Lorem Ipsum generators on the Internet tend to repeated
@@ -502,7 +529,7 @@
       <div class="section8">
         <div class="container">
           <div class="centerSec8">
-            <h3 class="h3sec7">Articles & Resources</h3>
+            <h3 class="h3sec7">Məqalələr və Resurslar</h3>
             <div class="centerDivSec8">
               <div class="realModCart1">
                 <div class="divImg">
@@ -521,7 +548,7 @@
                     look like others readable will get end.
                   </p>
                   <div class="cartBootm">
-                    <a href="./articles/article.html" class="haveAny"
+                    <a href="./ariclecarts/index.html" class="haveAny"
                       >Read more</a
                     >
                     <span>Author - 23.05.2022</span>
@@ -585,7 +612,7 @@
     <section>
       <div class="container">
         <div class="centerDivSec9">
-          <h3 class="h3sec9">Read a free chapter</h3>
+          <h3 class="h3sec9">Pulsuz fəsil oxuyun</h3>
           <hr class="hrsec9" />
           <p>
             Making this the first true value generator on the Internet. It of
@@ -594,10 +621,10 @@
           <label for="form" class="form">
             <input
               type="text"
-              placeholder="Your Email id..."
+              placeholder=" E-Poçt daxil et..."
               class="inputSec9"
             />
-            <button type="submit" class="btnSubmit">Subscribe</button>
+            <button type="submit" class="btnSubmit">Abunə ol</button>
           </label>
         </div>
       </div>
@@ -615,57 +642,61 @@
                 </div>
                 <!-- Icons SosialMedia -->
                 <div class="divIcon">
-                  <img
-                    src="./iconimg/facebook.svg"
-                    class="icon1design"
-                    alt="icon1"
-                  />
-                  <img
-                    src="./iconimg/linkedin.svg"
-                    class="icon1design"
-                    alt="icon2"
-                  />
-                  <img
-                    src="./iconimg/twitter.svg"
-                    class="icon1design"
-                    alt="icon3"
-                  />
+                  <a href="https://facebook.com">
+                    <img
+                      src="./iconimg/facebook.svg"
+                      class="icon1design"
+                      alt="icon1"
+                  /></a>
+                  <a href="https://twitter.com">
+                    <img
+                      src="./iconimg/linkedin.svg"
+                      class="icon1design"
+                      alt="icon2"
+                  /></a>
+                  <a href="https://linkedin.com">
+                    <img
+                      src="./iconimg/twitter.svg"
+                      class="icon1design"
+                      alt="icon3"
+                    />
+                  </a>
                 </div>
               </div>
               <div class="divExplore">
-                <h5 class="h5footer">Explore</h5>
+                <h5 class="h5footer">Araşdırın</h5>
                 <ul class="expLore">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Appointments</a></li>
-                  <li><a href="#">Blog</a></li>
-                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Ana səhifə</a></li>
+                  <li><a href="#">Bizim Haqqımızda</a></li>
+                  <li><a href="#">Xidmətlr</a></li>
+                  <li><a href="#">Randevular</a></li>
+                  <li><a href="#">Bloq</a></li>
+                  <li><a href="#">Əlaqə</a></li>
                 </ul>
               </div>
               <div class="divExplore">
-                <h5 class="h5footer">Utility Pages</h5>
+                <h5 class="h5footer">Utility Səhifələr</h5>
                 <ul class="expLore">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Appointments</a></li>
-                  <li><a href="#">Blog</a></li>
-                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Ana səhifə</a></li>
+                  <li><a href="#">Bizim Haqqımızda</a></li>
+                  <li><a href="#">Xidmətlr</a></li>
+                  <li><a href="#">Randevular</a></li>
+                  <li><a href="#">Bloq</a></li>
+                  <li><a href="#">Əlaqə</a></li>
                 </ul>
               </div>
               <div class="divExplore">
-                <h5 class="h5footer">Keep in Touch</h5>
+                <h5 class="h5footer">Əlaqə saxla</h5>
                 <ul class="Keep">
                   <li>
-                    <a href="#">Adress :</a
+                    <a href="#">Ünvan :</a
                     ><span style="font-size: 12px; color: #969aa0; width: 30%">
                       24A Kingston St, Los Vegas NC 28202, USA.</span
                     >
                   </li>
                   <li>
                     <a href="#"
-                      >Mail :<span
+                      >Poçt :<span
                         style="font-size: 12px; color: #969aa0; width: 30%"
                       >
                         support@doctors.com</span
@@ -674,7 +705,7 @@
                   </li>
                   <li>
                     <a href="#"
-                      >Phone :
+                      >Telefon :
                       <span style="font-size: 12px; color: #969aa0; width: 30%">
                         (+22) 123 - 4567 - 900</span
                       ></a
@@ -694,5 +725,8 @@
         </div>
       </div>
     </footer>
+
+    <!-- JavaScript Script Inport -->
+    <script src="./style.js"></script>
   </body>
 </html>

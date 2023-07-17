@@ -78,6 +78,9 @@ a {
 .dropDown:hover .dropDown-Content {
   clip-path: inset(0 0 0 0);
 }
+.showList {
+  display: none;
+}
 /* Basket */
 .basket {
   display: flex;
@@ -249,7 +252,7 @@ hr {
 .dashed {
   width: 25px;
   height: 40px;
-  border-right: 1px #000 dashed;
+  border-right: 2px #000 dashed;
 }
 .right2Bootm {
   display: flex;
@@ -286,48 +289,68 @@ hr {
   /* background-color: #000; */
   display: flex;
   width: 100%;
-
   justify-content: space-evenly;
 }
 .divBook1 {
   display: flex;
   width: 350px;
-  height: 250px;
-
+  height: 290px;
+  transition: 0.8s ease;
   position: relative;
 }
 .divBook2 {
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 0;
+  gap: 14px;
   left: 85px;
-  width: 180px;
+  width: 195px;
   height: 100%;
   z-index: -1;
-  transition: 0.3s ease;
+  transition: 0.8s ease;
+  opacity: 0;
   transform: translateX(0px);
 }
 
 .divBook1:hover .divBook2 {
-  transform: translateX(195px);
+  transform: translateX(220px);
+  z-index: 1;
+  opacity: 1;
+}
+.divBook1:hover {
+  transform: translateX(-80px);
 }
 /* Div */
 .divBook3 {
   display: flex;
   width: 350px;
-  height: 250px;
+  height: 290px;
   position: relative;
+  transition: 0.8s ease;
 }
 .divBook4 {
   position: absolute;
-  left: 90px;
+  left: 95px;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 0;
+  gap: 12px;
   width: 180px;
   height: 100%;
   z-index: -1;
-  transition: 0.3s ease;
+  transition: 0.8s ease;
+  opacity: 0;
   transform: translateX(0px);
 }
 
 .divBook3:hover .divBook4 {
-  transform: translateX(185px);
+  z-index: 1;
+  opacity: 1;
+  transform: translateX(200px);
+}
+.divBook3:hover {
+  transform: translateX(-80px);
 }
 /*---Section(4) ----  */
 .section4 {
@@ -494,4 +517,165 @@ hr {
 }
 .colorSpan {
   color: #f5f5f5;
+}
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 96%;
+    padding: 0 40px;
+    justify-content: space-between;
+  }
+  /* LeftDiv */
+  .leftDiv {
+    font-size: 12px;
+    gap: 4px;
+  }
+  .iconbg {
+    margin-left: 5px;
+    padding: 5px;
+  }
+  /* Right Div */
+  .rightDiv {
+    gap: 10px;
+    padding: 0 10px;
+  }
+  .uld-flex {
+    gap: 20px;
+    color: #1b3764;
+    font-size: 22px;
+    position: fixed;
+    left: -5%;
+    top: 0px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .uld-flex .active {
+    left: 0;
+  }
+  .btnOrderMini {
+    width: 125px;
+    height: 40px;
+    font-size: 14px;
+    display: none;
+  }
+  .iconDiv {
+    display: none;
+  }
+  .rightDiv {
+    transform: translateX(-200%);
+    position: fixed;
+    width: 45%;
+    transition: 0.5s;
+    bottom: 0;
+    background: black;
+    top: 0;
+    left: 0;
+    z-index: 3;
+  }
+  .basket {
+    display: none;
+  }
+  .showList {
+    display: block;
+  }
+
+  .hamburger-menu {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  .hamburger-menu .basket {
+    display: block;
+    margin-top: 18px;
+  }
+  .iconHamburger {
+    display: block;
+  }
+  .positbasket {
+    top: -34px;
+    left: 15px;
+  }
+  .centerDiv {
+    width: 100%;
+    margin: 32px auto;
+  }
+  /* ---Section(1)---- */
+  .centerDivSec1 {
+    margin: 25px auto;
+  }
+  .divImg {
+    width: 100%;
+    height: 350px;
+  }
+  .centerBootm {
+    display: flex;
+    flex-direction: column;
+  }
+  .leftDivsec1 {
+    width: 80%;
+  }
+  .rightDivsec1 {
+    width: 100%;
+  }
+  /* --Section(2)---- */
+  .centerDivSec2 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 22px;
+  }
+  .leftDivSec2 {
+    width: 100%;
+  }
+  .rightDivSec2 {
+    width: 100%;
+    height: 300px;
+  }
+  /* --Section(3)---- */
+  .sec3center {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sec4center {
+    flex-direction: column;
+    align-items: center;
+  }
+  .centerDivSec5 {
+    width: 100%;
+    margin: 40px auto;
+  }
+  .form {
+    width: 100%;
+  }
+  /* ---Footer---- */
+  .centerDivFooter {
+    justify-content: center;
+    padding: 38px 0;
+    gap: 38px;
+    flex-direction: column;
+  }
+  .divIcon {
+    gap: 12px;
+  }
+  .icon1design {
+    padding: 4px;
+  }
+  .divExplore {
+    gap: 6px;
+    font-size: 16px;
+  }
+  .expLore > li {
+    list-style: none;
+  }
+  .Keep {
+    gap: 8px;
+    font-size: 12px;
+  }
+  .h5sec6 {
+    font-size: 14px;
+  }
 }

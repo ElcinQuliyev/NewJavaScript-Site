@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./store.css" />
+    <!-- Sweetalert Css initialize -->
+    <link
+      href="
+    https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.min.css
+    "
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -53,8 +60,8 @@
             <div>
               <a href="#" class="basket"
                 ><img src="../iconimg/basket.svg" alt="" />
-                <div class="positbasket">01</div></a
-              >
+                <div class="positbasket"></div
+              ></a>
             </div>
             <!-- Basket -->
             <button type="button" class="btnOrderMini">Order Today</button>
@@ -71,150 +78,21 @@
         </div>
       </div>
     </header>
+    <!-- CartBasket -->
+    <div class="card">
+      <h3>Cart</h3>
+      <div class="listCard"></div>
+      <div class="checkOut">
+        <div class="total">0</div>
+        <div class="closeShop">Close</div>
+      </div>
+    </div>
+
     <!-- Section(1) -->
     <section>
       <div class="section1">
         <div class="container">
-          <div class="divCarts">
-            <div class="cart1">
-              <div class="backDiv">
-                <div class="cart1Img">
-                  <img
-                    src="../iconimg/BookAtomic.svg"
-                    class="widthimg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="centerCartText">
-                <div class="textD-flex">
-                  <h3 class="h3sec1">Atomic One’s</h3>
-                  <span>$23.89</span>
-                </div>
-                <p>
-                  Many variations of passages of Lorem Ipsum willing araise
-                  alteration in some form.
-                </p>
-                <li>Printed Books</li>
-                <button type="button" class="btnOrder">Order Today</button>
-              </div>
-            </div>
-            <div class="cart1">
-              <div class="backDiv">
-                <div class="cart1Img">
-                  <img
-                    src="../iconimg/BookAtomic.svg"
-                    class="widthimg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="centerCartText">
-                <div class="textD-flex">
-                  <h3 class="h3sec1">Atomic One’s</h3>
-                  <span>$23.89</span>
-                </div>
-                <p>
-                  Many variations of passages of Lorem Ipsum willing araise
-                  alteration in some form.
-                </p>
-                <li>Printed Books</li>
-                <button type="button" class="btnOrder">Order Today</button>
-              </div>
-            </div>
-            <div class="cart1">
-              <div class="backDiv">
-                <div class="cart1Img">
-                  <img
-                    src="../iconimg/BookAtomic.svg"
-                    class="widthimg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="centerCartText">
-                <div class="textD-flex">
-                  <h3 class="h3sec1">Atomic One’s</h3>
-                  <span>$23.89</span>
-                </div>
-                <p>
-                  Many variations of passages of Lorem Ipsum willing araise
-                  alteration in some form.
-                </p>
-                <li>Printed Books</li>
-                <button type="button" class="btnOrder">Order Today</button>
-              </div>
-            </div>
-            <div class="cart1">
-              <div class="backDiv">
-                <div class="cart1Img">
-                  <img
-                    src="../iconimg/BookAtomic.svg"
-                    class="widthimg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="centerCartText">
-                <div class="textD-flex">
-                  <h3 class="h3sec1">Atomic One’s</h3>
-                  <span>$23.89</span>
-                </div>
-                <p>
-                  Many variations of passages of Lorem Ipsum willing araise
-                  alteration in some form.
-                </p>
-                <li>Printed Books</li>
-                <button type="button" class="btnOrder">Order Today</button>
-              </div>
-            </div>
-            <div class="cart1">
-              <div class="backDiv">
-                <div class="cart1Img">
-                  <img
-                    src="../iconimg/BookAtomic.svg"
-                    class="widthimg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="centerCartText">
-                <div class="textD-flex">
-                  <h3 class="h3sec1">Atomic One’s</h3>
-                  <span>$23.89</span>
-                </div>
-                <p>
-                  Many variations of passages of Lorem Ipsum willing araise
-                  alteration in some form.
-                </p>
-                <li>Printed Books</li>
-                <button type="button" class="btnOrder">Order Today</button>
-              </div>
-            </div>
-            <div class="cart1">
-              <div class="backDiv">
-                <div class="cart1Img">
-                  <img
-                    src="../iconimg/BookAtomic.svg"
-                    class="widthimg"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div class="centerCartText">
-                <div class="textD-flex">
-                  <h3 class="h3sec1">Atomic One’s</h3>
-                  <span>$23.89</span>
-                </div>
-                <p>
-                  Many variations of passages of Lorem Ipsum willing araise
-                  alteration in some form.
-                </p>
-                <li>Printed Books</li>
-                <button type="button" class="btnOrder">Order Today</button>
-              </div>
-            </div>
-          </div>
+          <div class="divCarts"></div>
         </div>
       </div>
     </section>
@@ -331,5 +209,13 @@
         </div>
       </div>
     </footer>
+    <!-- JavaScript Inportant -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- Sweetalert JavaScript Initialize -->
+    <!-- <script src="sweetalert2.all.min.js"></script> -->
+    <script src="
+    https://cdn.jsdelivr.net/npm/sweetalert2@11.7.12/dist/sweetalert2.all.min.js
+    "></script>
+    <script src="./store.js"></script>
   </body>
 </html>

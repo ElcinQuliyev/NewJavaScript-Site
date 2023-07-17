@@ -63,7 +63,7 @@ a {
   position: absolute;
   min-width: 65px;
   top: 32px;
-  left: 65px;
+  left: 105px;
   text-align: center;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   padding: 6px;
@@ -273,17 +273,20 @@ hr {
   background-color: #fff;
 }
 
+.centerQuestionDiv {
+  display: flex;
+  padding: 24px;
+  gap: 26px;
+  align-items: center;
+}
 .leftText {
   display: flex;
   flex-direction: column;
   gap: 10px;
+
   /* background-color: #ffca42; */
 }
 
-.DivText {
-  display: flex;
-  flex-direction: column;
-}
 .h3sec2 {
   font-size: 34px;
   font-family: "Cardo";
@@ -295,26 +298,37 @@ hr {
   font-size: 18px;
   font-family: Cardo;
   font-weight: 700;
-  border-bottom: 1px solid #4785e1;
+  /* border-bottom: 1px solid #4785e1; */
 }
 .changeDiv {
   display: flex;
   gap: 10px;
 }
-.bottomText {
+.faq .question {
+  cursor: pointer;
   display: flex;
-  padding: 10px;
-  width: 86%;
-  line-height: 24px;
-  font-size: 15px;
-  clip-path: inset(0 0 100% 0);
-  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  gap: 4px;
+  transition: 0.3s ease;
 }
-.DivText:hover .bottomText {
-  /* background-color: #1b3764; */
-  /* display: block; */
-  clip-path: inset(0 0 0 0);
+
+.faq .answer {
+  max-height: 0;
+  display: flex;
+  padding-top: 14px;
+  gap: 4px;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  border-bottom: 1px solid #1b3764;
 }
+.answer > p {
+  line-height: 26px;
+  width: 90%;
+}
+
+.faq .answer.show {
+  max-height: 100px; /* İstenilen maksimum yükseklik değeri */
+}
+
 .rightText {
   display: flex;
   flex-direction: column;
