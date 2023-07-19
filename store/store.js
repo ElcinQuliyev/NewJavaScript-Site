@@ -1,4 +1,4 @@
-const url = "http://localhost:3000/";
+const url = "http://localhost:3030/";
 const divCarts = document.querySelector(".divCarts");
 
 //------Div Carts---
@@ -150,3 +150,9 @@ const changeQuantity = async (countBasket, id) => {
   }
   reloadCard();
 };
+
+let hamBurger = document.querySelector(".iconHamburger");
+hamBurger.addEventListener("click", () => {
+  document.querySelector(".rightDiv").classList.toggle("showMenu");
+  console.log(".rightDiv");
+});

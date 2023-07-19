@@ -14,37 +14,53 @@
           <!-- IconPages and sosialMedia -->
           <!-- DivLeft -->
           <div class="leftDiv">
-            <div class="imgwidth">
-              <img src="../iconimg/bookmark.png" alt="" />
+            <div style="display: flex; align-items: center">
+              <div class="imgwidth">
+                <img src="../iconimg/bookmark.png" alt="" />
+              </div>
+              <h3>Pages</h3>
             </div>
-            <h3>Pages</h3>
-            <a href="#" class="iconbg"
-              ><img src="../iconimg/facebook.svg" alt=""
-            /></a>
-            <a href="#" class="iconbg"
-              ><img src="../iconimg/linkedin.svg" alt=""
-            /></a>
-            <a href="#" class="iconbg"
-              ><img src="../iconimg/twitter.svg" alt=""
-            /></a>
+            <div class="iconDiv">
+              <a href="#" class="iconbg"
+                ><img src="../iconimg/facebook.svg" alt=""
+              /></a>
+              <a href="#" class="iconbg"
+                ><img src="../iconimg/linkedin.svg" alt=""
+              /></a>
+              <a href="#" class="iconbg"
+                ><img src="../iconimg/twitter.svg" alt=""
+              /></a>
+            </div>
           </div>
           <!-- DivRight -->
           <div class="rightDiv">
             <!-- link -->
             <ul class="uld-flex">
-              <li><a href="../index.html">Home</a></li>
+              <li><a href="#">Ana Səhifə</a></li>
               <ul class="dropDown">
                 <li>
-                  <a href="#"> Pages ▾</a>
+                  <a href="#">Pagelər▾</a>
                 </li>
                 <ul class="dropDown-Content">
-                  <li><a href="./store/store.html">My Store</a></li>
-                  <li><a href="./articles/article.html">Articles</a></li>
+                  <li><a href="../store/store.html">Storiler</a></li>
+                  <li><a href="../articles/article.html">Article</a></li>
+                  <li><a href="../eroor/index.html">Error</a></li>
                 </ul>
               </ul>
-              <li><a href="./about/about.html">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="../about/about.html">Haqqında</a></li>
+              <li><a href="../eroor/index.html">Servislər</a></li>
+              <li><a href="../contact/contact.html">Əlaqə</a></li>
+              <li class="showList">
+                <a href="https://facebook.com" class="iconbg"
+                  ><img src="../iconimg/facebook.svg" alt=""
+                /></a>
+                <a href="https:linkedin.com" class="iconbg"
+                  ><img src="../iconimg/linkedin.svg" alt=""
+                /></a>
+                <a href="https://twitter.com" class="iconbg"
+                  ><img src="../iconimg/twitter.svg" alt=""
+                /></a>
+              </li>
             </ul>
             <!-- Basket -->
             <div>
@@ -55,6 +71,20 @@
             </div>
             <!-- Basket -->
             <button type="button" class="btnOrderMini">Order Today</button>
+          </div>
+          <div class="hamburger-menu">
+            <div>
+              <a href="#" class="basket"
+                ><img src="../iconimg/basket.svg" alt="" />
+                <div class="positbasket">01</div></a
+              >
+            </div>
+            <img
+              class="iconHamburger"
+              src="../iconimg/hamburger.svg"
+              class="widthimg"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -168,5 +198,7 @@
         </div>
       </div>
     </footer>
+    <!-- JavaScript -->
+    <script src="../style.js"></script>
   </body>
 </html>

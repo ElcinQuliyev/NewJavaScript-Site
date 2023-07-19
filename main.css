@@ -947,7 +947,7 @@ li > span {
     display: none;
   }
   .rightDiv {
-    transform: translateX(-200%);
+    transform: translateX(-100%);
     position: fixed;
     width: 45%;
     transition: 0.5s;

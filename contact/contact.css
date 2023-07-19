@@ -141,6 +141,9 @@ hr {
   background-color: #ffca42;
   border: 0;
 }
+.hamburger-menu {
+  display: none;
+}
 /* ---Section(1)--- */
 .section1 {
   width: 100%;
@@ -423,4 +426,161 @@ hr {
 }
 .colorSpan {
   color: #f5f5f5;
+}
+/* ---Responsible---- */
+@media screen and (max-width: 992px) {
+  .container {
+    padding: 0 10px;
+    max-width: 96%;
+  }
+  /* LeftDiv */
+  .leftDiv {
+    font-size: 12px;
+    gap: 4px;
+  }
+  .iconbg {
+    margin-left: 5px;
+    padding: 5px;
+  }
+  /* Right Div */
+  .rightDiv {
+    gap: 10px;
+    padding: 0 10px;
+  }
+  .uld-flex {
+    gap: 20px;
+    color: #1b3764;
+    font-size: 22px;
+    position: fixed;
+    left: -5%;
+    top: 0px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .uld-flex .active {
+    left: 0;
+  }
+  .btnOrderMini {
+    width: 125px;
+    height: 40px;
+    font-size: 14px;
+    display: none;
+  }
+  .iconDiv {
+    display: none;
+  }
+  .rightDiv {
+    transform: translateX(-100%);
+    position: fixed;
+    width: 45%;
+    transition: 0.5s;
+    bottom: 0;
+    background: black;
+    top: 0;
+    left: 0;
+    z-index: 3;
+  }
+  .basket {
+    display: none;
+  }
+  .showList {
+    display: block;
+  }
+
+  .hamburger-menu {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  .hamburger-menu .basket {
+    display: block;
+    margin-top: 18px;
+  }
+  .iconHamburger {
+    display: block;
+  }
+  .positbasket {
+    top: -34px;
+    left: 15px;
+  }
+
+  /* ----Footer----- */
+  /* ----Resbonsible---- */
+  .centerDivFooter {
+    width: 100%;
+    padding: 30px;
+    margin: 0;
+    gap: 22px;
+  }
+  .divPages {
+    gap: 20px;
+    padding: 5px;
+  }
+  .divimgPage {
+    gap: 8px;
+  }
+  .divIcon {
+    gap: 14px;
+  }
+  .icon1design {
+    padding: 6px;
+  }
+  .divExplore {
+    gap: 6px;
+  }
+  .h5footer {
+    font-size: 15px;
+  }
+  .expLore {
+    gap: 6px;
+  }
+  .expLore > li {
+    list-style: none;
+  }
+  .expLore > li > a {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 576px) and (max-width: 768px) {
+  .centerContact {
+    flex-direction: column;
+  }
+  .leftDivTouch {
+    width: 80%;
+  }
+  .rightDivTouch {
+    width: 90%;
+  }
+  /* ---Footer---- */
+  .centerDivFooter {
+    justify-content: center;
+    padding: 38px 0;
+    gap: 38px;
+    flex-direction: column;
+  }
+  .divIcon {
+    gap: 12px;
+  }
+  .icon1design {
+    padding: 4px;
+  }
+  .divExplore {
+    gap: 6px;
+    font-size: 16px;
+  }
+  .expLore > li {
+    list-style: none;
+  }
+  .Keep {
+    gap: 8px;
+    font-size: 12px;
+  }
+  .h5sec6 {
+    font-size: 14px;
+  }
 }

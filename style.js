@@ -20,4 +20,5 @@ btnSubmit.addEventListener("click", () => {
 let hamBurger = document.querySelector(".iconHamburger");
 hamBurger.addEventListener("click", () => {
   document.querySelector(".rightDiv").classList.toggle("showMenu");
+  console.log(".rightDiv");
 });
