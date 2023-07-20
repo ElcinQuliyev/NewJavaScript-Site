@@ -584,3 +584,6 @@ hr {
     font-size: 14px;
   }
 }
+.showMenus {
+  transform: translateX(0);
+}

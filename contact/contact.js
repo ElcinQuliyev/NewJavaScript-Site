@@ -9,3 +9,9 @@ function toggleAnswer(question) {
   const answer = question.nextElementSibling;
   answer.classList.toggle("show");
 }
+
+let hamBurger = document.querySelector(".iconHamburger");
+hamBurger.addEventListener("click", () => {
+  document.querySelector(".rightDiv").classList.toggle("showMenus");
+  console.log(".rightDiv");
+});

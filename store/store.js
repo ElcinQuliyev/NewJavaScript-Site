@@ -153,6 +153,6 @@ const changeQuantity = async (countBasket, id) => {
 
 let hamBurger = document.querySelector(".iconHamburger");
 hamBurger.addEventListener("click", () => {
-  document.querySelector(".rightDiv").classList.toggle("showMenu");
+  document.querySelector(".rightDiv").classList.toggle("showMenus");
   console.log(".rightDiv");
 });

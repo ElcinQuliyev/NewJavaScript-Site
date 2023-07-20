@@ -873,3 +873,6 @@ hr {
     font-size: 14px;
   }
 }
+.showMenu {
+  transform: translateX(0);
+}
