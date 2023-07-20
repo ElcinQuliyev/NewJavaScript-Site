@@ -213,11 +213,13 @@ hr {
   display: flex;
   gap: 8px;
 }
+/* ( resize: none ) olmalidir */
 .inputWidth {
   width: 100%;
   height: 100%;
   padding: 8px;
   border: none;
+  resize: none;
 }
 .checkboxDiv {
   display: flex;
