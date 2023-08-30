@@ -155,7 +155,6 @@ modalTrigger.forEach((trigger) => {
   trigger.addEventListener("click", () => {
     const productId = trigger.dataset.id;
     redirectToProductPage(productId);
-    console.log();
   });
 });
 
