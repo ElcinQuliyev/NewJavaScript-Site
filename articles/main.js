@@ -55,7 +55,7 @@
 //   },
 // ];
 // let url = "http://localhost:3030";
-const url = "https://my-json-server.typicode.com/ElcinQuliyev/dbBookJson";
+const url = "https://my-json-server.typicode.com/ElcinQuliyev/dbBookJson/db";
 
 let realMod = document.querySelectorAll(".realModCart1");
 const articleWrapper = document.querySelector(".centerDivSec2");
