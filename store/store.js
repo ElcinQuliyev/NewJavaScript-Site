@@ -1,4 +1,5 @@
-const url = "http://localhost:3030/";
+// const url = "http://localhost:3030/";
+const url = "https://my-json-server.typicode.com/ElcinQuliyev/dbBookJson/";
 const divCarts = document.querySelector(".divCarts");
 
 //------Div Carts---

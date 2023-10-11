@@ -25,32 +25,32 @@
 //     Swal.fire("Changes are not saved", "", "info");
 //   }
 // });
-let productData = [
-  {
-    id: 1,
-    img: "http://127.0.0.1:5500/iconimg/BookAtomic.svg",
-    title: "Atomic One’s",
-    price: 25.99,
-    about: "Many Atomic",
-    description: "Proent Book",
-  },
-  {
-    id: 2,
-    img: "http://127.0.0.1:5500/iconimg/BookAtomic.svg",
-    title: "Atomic One’s",
-    price: 22.99,
-    about: "Many Atomic",
-    description: "Proent Book",
-  },
-  {
-    id: 3,
-    img: "http://127.0.0.1:5500/iconimg/BookAtomic.svg",
-    title: "Atomic One’s",
-    price: 28.99,
-    about: "Many Atomic",
-    description: "Proent Book",
-  },
-];
+// let productData = [
+//   {
+//     id: 1,
+//     img: "http://127.0.0.1:5500/iconimg/BookAtomic.svg",
+//     title: "Atomic One’s",
+//     price: 25.99,
+//     about: "Many Atomic",
+//     description: "Proent Book",
+//   },
+//   {
+//     id: 2,
+//     img: "http://127.0.0.1:5500/iconimg/BookAtomic.svg",
+//     title: "Atomic One’s",
+//     price: 22.99,
+//     about: "Many Atomic",
+//     description: "Proent Book",
+//   },
+//   {
+//     id: 3,
+//     img: "http://127.0.0.1:5500/iconimg/BookAtomic.svg",
+//     title: "Atomic One’s",
+//     price: 28.99,
+//     about: "Many Atomic",
+//     description: "Proent Book",
+//   },
+// ];
 
 // <!-- Carts1 -->
 //         <!-- <div class="realModCart1">
