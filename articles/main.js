@@ -55,7 +55,7 @@
 //   },
 // ];
 // let url = "http://localhost:3030";
-const url = "https://my-json-server.typicode.com/ElcinQuliyev/dbBookJson/";
+const url = "https://my-json-server.typicode.com/ElcinQuliyev/dbBookJson";
 
 let realMod = document.querySelectorAll(".realModCart1");
 const articleWrapper = document.querySelector(".centerDivSec2");
@@ -88,7 +88,7 @@ const modal = document.querySelector("#modal");
 
 const ShowDatas = async () => {
   try {
-    const res = await axios.get(url + "productData");
+    const res = await axios.get(url + "/productData");
     const data = res.data;
     data.map((scrpts) => {
       articleWrapper.innerHTML += ` <div class="realModCart1">
